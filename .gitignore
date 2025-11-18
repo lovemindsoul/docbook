@@ -1,2 +1,10 @@
 /build/
 /.gradle/
+
+# React Native / Expo
+esoteric-app/node_modules/
+esoteric-app/.expo/
+esoteric-app/dist/
+esoteric-app/.expo-shared/
+esoteric-app/*.log
+esoteric-app/.DS_Store
