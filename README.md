@@ -1,10 +1,35 @@
-# The DocBook Schemas
+# Esoteric Mobile App Repository
+
+This repository contains both the DocBook schemas (preserved for reference) and a new mobile application for esoteric spiritual practices.
+
+## 🔮 Esoteric App - Mobile Application
+
+A comprehensive mobile app for exploring tarot, numerology, astrology, angel numbers, and other esoteric practices.
+
+### Quick Start
+
+```bash
+cd esoteric-app
+npm install
+npm start
+```
+
+See the [esoteric-app README](./esoteric-app/README.md) for detailed instructions.
+
+### Features
+
+- **🔮 Tarot Reading** - Interactive tarot card readings with multiple spreads
+- **🔢 Numerology** - Calculate Life Path and Destiny numbers
+- **♈ Astrology** - Explore zodiac signs and their meanings
+- **👼 Angel Numbers** - Decode divine messages from number sequences
+
+---
+
+## The DocBook Schemas (Legacy)
 
 [![build-specs](https://github.com/docbook/docbook/actions/workflows/build-branch.yml/badge.svg)](https://github.com/docbook/docbook/actions/workflows/build-branch.yml)
 
-This repository contains the sources for the DocBook schemas. On 23
-July 2020, the branching structure was reorganized. Apologies for any
-inconvenience caused. Going forward:
+This repository also contains the sources for the DocBook schemas (preserved for reference).
 
 * `main` is the primary development branch. This is where v.next is developed (currently 5.2)
   This branch used to be called `docbook-5.2-dev`.
@@ -13,6 +38,3 @@ inconvenience caused. Going forward:
   properly tag and branch 5.0 when we did it; Norm had to reconstruct this branch from the history.
   The -rewind name is to acknowledge this fact.
 * `gh-pages` contains some generated content; this needs work, TBH
-
-There are a few other moribund and stale branches lying around. Those may get removed
-eventually.
